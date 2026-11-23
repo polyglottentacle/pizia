@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cassandra</title>
+<meta http-equiv="refresh" content="0; url=https://polyglottentacle.github.io/cassandra/">
+<link rel="canonical" href="https://polyglottentacle.github.io/cassandra/">
+<script>
+  // l'app si chiamava Pizia: si toglie la vecchia copia in memoria e si va all'indirizzo nuovo
+  (async function () {
+    try { if (navigator.serviceWorker) (await navigator.serviceWorker.getRegistrations()).forEach(function (r) { r.unregister(); }); } catch (e) {}
+    try { if (window.caches) (await caches.keys()).forEach(function (k) { caches.delete(k); }); } catch (e) {}
+    location.replace('https://polyglottentacle.github.io/cassandra/');
+  })();
+</script>
+</head>
+<body style="font-family:sans-serif;padding:24px">
+<p>Pizia ora si chiama <b>Cassandra</b>. <a href="https://polyglottentacle.github.io/cassandra/">Apri Cassandra</a></p>
+</body>
+</html>
